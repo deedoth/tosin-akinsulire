@@ -261,3 +261,7 @@ section { padding: 100px 0; }
 .reveal { opacity: 0; transform: translateY(20px); transition: opacity .7s ease, transform .7s ease; }
 .reveal.in { opacity: 1; transform: none; }
 @media (prefers-reduced-motion: reduce) { .reveal { opacity: 1; transform: none; transition: none; } html { scroll-behavior: auto; } }
+
+/* Portrait cutout from brand profile (transparent PNG) */
+.portrait img { object-position: center top; }
+.feature-photo .photo img { object-fit: contain; object-position: center bottom; height: 92%; align-self: end; }
